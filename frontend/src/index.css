@@ -1,0 +1,192 @@
+
+
+body{
+  background-color: rgb(236, 236, 236);
+}
+
+
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.nav-link{color:#FFF!important;
+margin: 0 15px;}
+
+
+
+.foter{ 
+  background: #000;
+  border-top: 3px solid #8b0000;
+  color: #FFF!important;
+}
+
+
+.form-control{
+  background:rgb(255, 255, 255)!important;
+  color:rgb(0, 0, 0)!important;
+  border-radius: 11px;
+ }
+
+
+
+
+.clsk{
+  /* background: #8b0000; */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+ padding: 3px 21px 1px;
+border-bottom:1px solid rgb(58, 0, 20)
+}
+
+.top_menu{
+  height: 19px;
+  width: 100%;
+  font-size: 11px;
+  color:rgb(172, 172, 172);
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(80, 80, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+45,0f1011+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 45%, #0f1011 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #000000 45%,#0f1011 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #000000 45%,#0f1011 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0f1011',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.toldo{
+  background:url("./img/toldo.png") top center no-repeat;
+  height: 293px;
+  width: 100%;
+}
+.papelillo{
+  background:url("./img/papelillos.jpg") bottom center no-repeat;
+  height: 227px;
+  background-size: cover;
+ width: 100%;
+}
+.banner_licor{
+background:url("./img/banner-licor.png") top center no-repeat;
+background-color:rgb(26, 26, 26);
+height: 179px;
+width: 100%;
+border-top: #8b0000 3px solid ;
+}
+
+.adresse{
+  background:url("./img/redLocation.gif") 50% 88% no-repeat;
+  background-color: rgb(255, 255, 255);
+  height: 585px;
+  padding-bottom: 315px;
+  padding-top: 22px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+
+.mainn{width: 100%!important;}
+.bk{
+  background-size:auto;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+height: 77vh;}
+
+  #bk1 {background: url("./img/bk__1.jpg") center center ;
+    -webkit-box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);}
+  #bk2 {background: url("./img/bk__2.jpg") center center  ;
+    -webkit-box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 21px 10px -10px rgba(0,0,0,0.5);}
+
+
+
+#carusel{
+ background:#8b0000;
+ -webkit-box-shadow: inset 0px 417px 10px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 417px 10px -10px rgba(0,0,0,0.75);
+box-shadow: inset 0px 417px 10px -10px rgba(0,0,0,0.75);
+}
+
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+#bkText1{ background: url(http://51.195.43.100/tresLeche.png)no-repeat center top;}
+#bkText2{ background: url(http://51.195.43.100/florslider.png)no-repeat center top;}
+
+.captioon {
+  margin: auto 10%;
+  background-size: contain;
+  width: 617px;
+  height: auto;
+  color: rgb(236, 255, 191);
+  padding-top: 215px;
+padding-left: 19px;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+
+  .clsk {
+    padding: 15px!important;
+    background-color: rgb(235, 20, 20)!important;
+  }
+  .form-inline{
+    display: none!important;
+  }
+
+  .banner_licor{
+    background:url("./img/banner-licor-movil-2.png") top center no-repeat;
+    background-color:rgb(26, 26, 26);
+    height: 355px;
+    width: 100%;
+    border-top: #8b0000 3px solid ;
+    }
+    
+
+
+}
+
+
+
