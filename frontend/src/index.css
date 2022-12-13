@@ -147,8 +147,8 @@ box-shadow: inset 0px 417px 10px -10px rgba(0,0,0,0.75);
   display: flex;
 }
 
-#bkText1{ background: url(http://51.195.43.100/tresLeche.png)no-repeat center top;}
-#bkText2{ background: url(http://51.195.43.100/florslider.png)no-repeat center top;}
+#bkText1{ background: url("./img/tresLeche.png") no-repeat center top;}
+#bkText2{ background: url("./img/florslider.png")no-repeat center top;}
 
 .captioon {
   margin: auto 10%;
